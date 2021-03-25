@@ -203,13 +203,13 @@ h6 {
   color: #fff;
 }
 
-#intro .intro-info .btn-get-started {
+/* #intro .intro-info .btn-get-started {
   background: #007bff;
   border: 2px solid #007bff;
   color: #fff;
-}
+} */
 
-#intro .intro-info .btn-get-started:hover {
+/* #intro .intro-info .btn-get-started:hover {
   background: none;
   border-color: #fff;
   color: #fff;
@@ -223,7 +223,7 @@ h6 {
   background: #007bff;
   border-color: #007bff;
   color: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -252,7 +252,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #178900;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -263,7 +263,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #0a82f0;
   text-decoration: none;
 }
 
@@ -298,7 +298,7 @@ h6 {
   color: #004289;
 }
 
-.main-nav .drop-down ul a:hover,
+/* .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
   color: #007bff;
@@ -329,7 +329,7 @@ h6 {
   content: "\f105";
   position: absolute;
   right: 15px;
-}
+} */
 
 /* Mobile Navigation */
 /* 
@@ -573,7 +573,7 @@ h6 {
 /* Services Section
 --------------------------------*/
 
-#services {
+/* #services {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
@@ -584,7 +584,7 @@ h6 {
   overflow: hidden;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
-  background: #fff;
+  background: rgb(255, 255, 255);
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
 }
@@ -594,17 +594,17 @@ h6 {
   transform: translateY(-5px);
 }
 
-#services .icon {
+/* #services .icon {
   position: absolute;
   left: -10px;
   top: calc(50% - 32px);
-}
+} */
 
-#services .icon i {
+/* #services .icon i {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
-}
+} */
 
 #services .title {
   margin-left: 40px;
@@ -618,7 +618,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #007bff;
+  color: #00ff15;
 }
 
 #services .description {
@@ -629,16 +629,16 @@ h6 {
 }
 
 #why-us {
-  padding: 60px 0;
-  background: #0a82f0;
+  padding: 6px 0;
+  background: #d3d600;
 }
-
 #why-us .section-header h3,
 #why-us .section-header p {
-  color: #fff;
+  color: rgb(196, 24, 158);
 }
+*/
 
-#why-us .card {
+/* #why-us .card {
   background: #00458f;
   border-color: #00458f;
   border-radius: 10px;
@@ -701,7 +701,7 @@ h6 {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #cce5ff;
-}
+} */
 
 /* Portfolio Section
 --------------------------------*/
@@ -1008,7 +1008,7 @@ h6 {
 
 /* Clients Section
 --------------------------------*/
-
+/* 
 #clients {
   padding: 60px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
@@ -1048,7 +1048,7 @@ h6 {
 
 #clients img {
   transition: all 0.4s ease-in-out;
-}
+} */
 
 /* Contact Section
 --------------------------------*/
@@ -1183,12 +1183,12 @@ h6 {
 # Footer
 --------------------------------------------------------------*/
 
-#footer {
+/* #footer {
   background: #00428a;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
-}
+} */
 
 #footer .footer-top {
   background: #0a82f0;
@@ -1330,7 +1330,7 @@ h6 {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   #testimonials .testimonial-item p {
     width: 80%;
   }
@@ -1409,4 +1409,4 @@ h6 {
   #intro {
     padding: 100px 0 20px 0;
   }
-}
+} */
